@@ -7,7 +7,7 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 #Read data
-df = pd.read_csv(r'C:\Users\Moham\OneDrive\Desktop\vscode\sleep.csv')
+df = pd.read_csv('sleep.csv')
 df.head()
 #cleaning
 df['Sleep Disorder']= df['Sleep Disorder'].replace(np.nan,'Normal')
